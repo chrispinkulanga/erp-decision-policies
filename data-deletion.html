@@ -5,26 +5,108 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Data Deletion Instructions — ERP DECISION</title>
   <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 20px; color: #333; }
-    h1, h2 { color: #111; }
-    a { color: #0066cc; }
-    footer { margin-top: 40px; font-size: 0.9em; color: #666; }
+    :root {
+      --primary: #0b3d91;
+      --primary-dark: #072a66;
+      --bg: #f4f6f9;
+      --card: #ffffff;
+      --text: #1c1f26;
+      --muted: #5a6270;
+      --border: #e2e6ee;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+    header {
+      background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+      color: #fff;
+      padding: 50px 20px 40px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0 0 10px;
+      font-size: 1.9rem;
+    }
+    header p {
+      margin: 0;
+      opacity: 0.9;
+      font-size: 0.95rem;
+    }
+    main {
+      max-width: 800px;
+      margin: -25px auto 40px;
+      padding: 0 20px;
+    }
+    .content {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 34px;
+      box-shadow: 0 4px 14px rgba(11, 61, 145, 0.06);
+    }
+    .content h2 {
+      color: var(--primary);
+      margin-top: 30px;
+      font-size: 1.2rem;
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 6px;
+    }
+    .content h2:first-of-type { margin-top: 0; }
+    .content ol { padding-left: 22px; }
+    .content li { margin-bottom: 10px; }
+    a { color: var(--primary); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .back {
+      display: inline-block;
+      margin-top: 28px;
+      font-weight: 600;
+    }
+    footer {
+      text-align: center;
+      padding: 30px 20px 40px;
+      color: var(--muted);
+      font-size: 0.9rem;
+      border-top: 1px solid var(--border);
+      background: #fff;
+    }
+    @media (max-width: 600px) {
+      header { padding: 40px 16px 32px; }
+      header h1 { font-size: 1.5rem; }
+      .content { padding: 24px; }
+    }
   </style>
 </head>
 <body>
-  <h1>Data Deletion Instructions</h1>
-  <p>To request deletion of your data, please follow these steps:</p>
+  <header>
+    <h1>Data Deletion Instructions</h1>
+    <p>ERP DECISION — WhatsApp Approval Gateway</p>
+  </header>
 
-  <ol>
-    <li>Email <a href="mailto:ruhumbikamtumbajohn@gmail.com">ruhumbikamtumbajohn@gmail.com</a> with the subject: <strong>ERP DECISION — Data Deletion Request</strong>.</li>
-    <li>Include the WhatsApp number in international format and the associated organization/ERP.</li>
-    <li>Do <strong>not</strong> send passwords or access tokens.</li>
-  </ol>
+  <main>
+    <div class="content">
+      <p>To request deletion of your data associated with ERP DECISION, please follow these steps:</p>
 
-  <p>We will verify your identity before processing the request. Eligible data will be deleted. Any records that must be retained will be explained to you.</p>
+      <h2>Steps to Request Deletion</h2>
+      <ol>
+        <li>Email <a href="mailto:ruhumbikamtumbajohn@gmail.com">ruhumbikamtumbajohn@gmail.com</a> with the subject line: <strong>ERP DECISION — Data Deletion Request</strong>.</li>
+        <li>Include the WhatsApp number in international format and the associated organization/ERP.</li>
+        <li>Do <strong>not</strong> send passwords or access tokens.</li>
+      </ol>
+
+      <h2>What Happens Next</h2>
+      <p>We will verify your identity before processing the request. Eligible data will be deleted. Any records that must be retained will be explained to you.</p>
+
+      <a class="back" href="index.html">&larr; Back to Home</a>
+    </div>
+  </main>
 
   <footer>
-    <p><a href="index.html">Back to Home</a></p>
+    <p>&copy; 2026 chrispinkulanga. All rights reserved.</p>
   </footer>
 </body>
 </html>
